@@ -1,0 +1,51 @@
+[
+    {
+        "productId": 4,
+        "name": "NexGen 2",
+        "model": 2015,
+        "amount": 25,
+        "price": 499
+    },
+    {
+        "productId": 3,
+        "name": "MaxEffect 2000",
+        "model": 2011,
+        "amount": 100,
+        "price": 1500
+    },
+    {
+        "productId": 7,
+        "name": "Tako delux",
+        "model": 2018,
+        "amount": 13,
+        "price": 2000
+    },
+    {
+        "productId": 5,
+        "name": "Beast II",
+        "model": 1995,
+        "amount": 15,
+        "price": 200
+    },
+    {
+        "productId": 6,
+        "name": "Future 2025",
+        "model": 2010,
+        "amount": 5,
+        "price": 700
+    },
+    {
+        "productId": 1,
+        "name": "Mercury",
+        "model": 2000,
+        "amount": 7,
+        "price": 100
+    },
+    {
+        "productId": 2,
+        "name": "Cosmos",
+        "model": 2017,
+        "amount": 1,
+        "price": 300
+    }
+]

@@ -1,0 +1,75 @@
+body {
+  background-color: cornsilk;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+th {
+  background-color: khaki;
+}
+
+table {
+  margin-bottom: 1em;
+}
+
+tr:nth-child(odd) {
+  background-color: peachpuff;
+}
+
+button {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  width: 13em;
+  height: 2em;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+  background-color: brown;
+  color: white;
+}
+
+label,
+.legend {
+  font-weight: bold;
+}
+
+#inputData {
+  display: grid;
+  justify-items: left;
+}
+
+#messagearea,
+#fields > div {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+input[readonly] {
+  background-color: wheat;
+}
+
+.error {
+  font-weight: bold;
+  color: red;
+  width: 13em;
+}
+
+.info {
+  font-weight: bold;
+  color: green;
+  width: 13em;
+}

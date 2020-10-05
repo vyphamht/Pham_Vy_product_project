@@ -1,0 +1,11 @@
+{
+  "databaseEngine": "database.js",
+  "sqlStatements": "Pham_Vy_product_createStatements.json",
+  "options": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "emil",
+    "password": "NmjOH7PD",
+    "database": "productdb"
+  }
+}

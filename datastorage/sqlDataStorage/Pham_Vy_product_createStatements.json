@@ -1,0 +1,13 @@
+{
+  "getAll": ["select productId,name,model,amount,price from product"],
+  "getProduct": [
+    "select productId,name,model,amount,price from product where productId=?"
+  ],
+  "insertProduct": [
+    "insert into product (productId, name,model,amount,price) values (?,?,?,?,?)"
+  ],
+  "deleteProduct": ["delete from product where productId=?"],
+  "updateProduct": [
+    "update product set name=?,model=?,amount=?,price=? where productId=?"
+  ]
+}
